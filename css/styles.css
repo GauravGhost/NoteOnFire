@@ -1,0 +1,140 @@
+body{
+    background-color: #0a0a0a;
+    font-family: ubuntu Mono , cursive;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: grey;
+    }
+   /* Heading section 1 Title  */
+    .heading_1{
+        line-height: 2;
+        color: #09d5f0;
+        display: block;
+        font-family: "Dancing Script", cursive ;
+        font-size: 60px;
+        font-weight: bold;
+        letter-spacing: 15px;
+        animation: moveInLeft 1s ease-out;
+        
+    }
+    @keyframes moveInLeft {
+        0%{
+            opacity: 0;
+            transform: translate(-100px);
+        }
+        100%{
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    
+    .heading_2{
+        display: block;
+        font-family: ubuntu Mono , cursive;
+        font-size: 23px;
+        letter-spacing: 10px;
+        font-weight: lighter;
+        animation: moveInRight 1s ease-out;
+        
+    }
+    
+    @keyframes moveInRight{
+        0%{
+            opacity: 0;
+        transform: translate(100px);
+        }
+        100%{
+            opacity: 100%;
+            transform: translate(0);
+        }
+        
+    }
+    
+        /* END OF SECTION 1 TITLE PAGE */
+    
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #fafafa;
+    color: rgb(0, 0, 0);
+}
+
+/* Contact section */
+
+.contact_me_box{
+    width: 50%;
+    
+}
+.get_in_touch{
+    margin: 40px 0 60px;
+    font-family: Calistoga, cursive ;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 40px;
+    
+  }
+
+  .contact_me_name{
+      font-weight: bolder;
+      letter-spacing: 2px;
+      
+  }
+    /* Button Modification */
+  .submit_btn{
+      border-style: solid;
+      padding: 10px 30px;
+      transition: .6s;
+      font-size: 18px;
+      border-color: darkcyan;
+      overflow: hidden;
+  }
+
+  .submit_btn:focus{
+      outline: none;
+  }
+
+  .submit_btn:hover{
+      background: rgba(211, 26, 42, 0.856);
+      cursor: pointer;
+  }
+
+  .submit_btn:hover:before{
+      transform: translateX(300px) skew(-15deg);
+      opacity: .6;
+      transition: .7s;
+
+  }
+
+  .submit_btn:hover::after{
+      transform: translateX(300px) skew(-15deg);
+      opacity: .6;
+      transition: .7s;
+  }
+
+ /* End of contact section */
+
+
+/* Footer section */
+
+
+.social_icon{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.footer_section{
+    text-align: center;
+    padding: 64px 0 0 0;
+}
+
+.last_line{
+
+    border-style: solid;
+    border-width: 10px 0 0 0;
+    border-color: #07f763;
+}
+
+/* End Of Footer section */
