@@ -7,6 +7,14 @@ body{
     color: grey;
     }
    /* Heading section 1 Title  */
+
+   .header {
+    padding: 80px;
+    background-image: url(https://media.giphy.com/media/S5Eud9sdyu5o6f7idH/source.gif);
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+}
     .heading_1{
         line-height: 2;
         color: #09d5f0;
@@ -32,6 +40,7 @@ body{
     .heading_2{
         display: block;
         font-family: ubuntu Mono , cursive;
+        color: #ffffff;
         font-size: 23px;
         letter-spacing: 10px;
         font-weight: lighter;
@@ -54,12 +63,7 @@ body{
         /* END OF SECTION 1 TITLE PAGE */
     
 
-.header {
-    padding: 80px;
-    text-align: center;
-    background: #fafafa;
-    color: rgb(0, 0, 0);
-}
+
 
 /* Contact section */
 
