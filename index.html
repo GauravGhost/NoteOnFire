@@ -18,6 +18,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/user_profile.css">
+    <link rel="stylesheet" href="css/notes.css">
 
     <!-- fonts Links -->
 
@@ -27,38 +29,214 @@
     <!-- Java from bootstrap links -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
 </head>
+
 <body>
-   <!-- Header Section 1 Title -->
- <div class="header">
-  <h1><span class="heading_1">Notes On Fire</span></h1>
-  <p><span class="heading_2">Get all the notes</span></p>
-</div>
 
-<!-- Contact me Section -->
+    <!-- Header Section 1 Title -->
 
-    <div class="container contact_me_box">
+    <div class="section_1">
+        <div class="header">
+            <h1><span class="heading_1">Notes On Fire</span></h1>
+            <p><span class="heading_2">Get all the notes</span></p>
+        </div>
+    </div>
+
+    <!-- End of section 1 Title -->
+
+    <!-- Section 2 About -->
+
+    <section class="section_2">
+        <div class="w3-row w3-center">
+            <div class="container">
+                <h2 class="heading text-danger text-center" id="about">What we do</h2>
+                <h3 class="w3-text-black wwd"> Notes on fire provides you the best possible notes available from sources
+                    NPTEL,GATE Academy, College Lectures, etc to ensure that "No more backlogs in engineering." </h3>
+                <div class="container">
+                    <p>The best teacher are those who show you where to look, but don't tell you what to see.</p>
+                    <p class="text-right"> - Alexandra K. Trenfor <p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End of Section 2-->
+
+    <!--Section 3 Notes-->
+
+    <div class="section_3">
+        <div class="Notes_header ">
+            <h2 class="heading" style="padding-top:40px;">Downloads</h2>
+            <p class="text-center mr-2">Download notes of all subject of any semester of college NPTEL.</p>
+        </div>
+        <div class="button_div">
+            <a href="semester/1.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>1<sup>st</sup> Semester</h4>
+                </button></a>
+            <a href="semester/2.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>2<sup>nd</sup> Semester</h4>
+                </button></a>
+            <a href="semester/3.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>3<sup>rd</sup> Semester</h4>
+                </button></a>
+            <a href="semester/4.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>4<sup>th</sup> Semester</h4>
+                </button></a>
+            <a href="semester/5.html"><button class="btn notes_button btn-primary btn-sm mr-3 ">
+                    <h4>5<sup>th</sup> Semester</h4>
+                </button></a>
+            <a href="semester/6.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>6<sup>th</sup> Semester</h4>
+                </button></a>
+            <a href="semester/7.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>7<sup>th</sup> Semester</h4>
+                </button></a>
+            <a href="semester/8.html"><button class="btn notes_button btn-primary btn-sm mr-3">
+                    <h4>8<sup>th</sup> Semester</h4>
+                </button></a>
+        </div>
+    </div>
+
+    <!-- End Section 3 Notes-->
+
+    <!-- Section 4 About Us and Team card-->
+    <div class="section_4">
+        <div class="w3-row w3-center">
+            <div class="container">
+                <h2 class="heading text-danger text-center" id="about">About Us</h2>
+                <h3 class="w3-text-black wwd">We all are college students as you. As we realise that in engineerng there is scaracity of notes dure to which we suffers alot. That leads to the birth of this to help other students to over come from this problem and we all know the education system which always leaves some of the modules in every semester.</h3>
+                <div class="container">
+                    <p class="text-dark">We all are students of computer science and engineering started a mission "To reduce backlogs in engineering.</p>
+                    
+                </div>
+            </div>
+        </div>
         <div>
-            <h2 class="get_in_touch text-danger text-center">Get In Touch</h2>
+            <h2 class="heading" style="padding-top:40px;">Team</h2>
+        </div>
+    
+        <div class="row">
+            <div class="col">
+                <div class="team">
+                    
+                </div>
+                <div class="card user_card">
+                    <img src="images/gyanendra.png" alt="Profile_picture" style="width:100%">
+                    <h3>Avinash kumar</h3>
+                    <p class="title text-info">Innovative & Skilled</p>
+
+                    <div>
+
+                        <a href="https://twitter.com/Gyanendrak874"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-verma-5b3a42193/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/gauravkira"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/gaurav.ghost/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <p><button class="btn btn-lg btn-dark">Contact</button></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="team">
+                    
+                </div>
+                <div class="card user_card">
+                    <img src="images/gyanendra.png" alt="Profile_picture" style="width:100%">
+                    <h3>Sejal Sumi</h3>
+                    <p class="title text-info">Smart worker</p>
+                    <div>
+                        <a href="https://twitter.com/Gyanendrak874"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-verma-5b3a42193/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/gauravkira"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/gaurav.ghost/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <p><button class="btn btn-lg btn-dark">Contact</button></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="team">
+                    
+                </div>
+                <div class="card user_card">
+                    <img src="images/gyanendra.png" alt="Profile_picture" style="width:100%">
+                    <h3>Abhishek Kumar</h3>
+                    <p class="title text-info">Developer & Dedicated</p>
+
+                    <div>
+                        <a href="https://twitter.com/Gyanendrak874"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-verma-5b3a42193/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/gauravkira"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/gaurav.ghost/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <p><button class="btn btn-lg btn-dark">Contact</button></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="team">
+                    
+                </div>
+                <div class="card user_card">
+                    <img src="images/gyanendra.png" alt="Profile_picture" style="width:100%">
+                    <h3>Aman Raj</h3>
+                    <p class="title text-info">Managing Skill</p>
+
+                    <div>
+                        <a href="https://twitter.com/Gyanendrak874"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-verma-5b3a42193/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/gauravkira"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/gaurav.ghost/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <p><button class="btn btn-lg btn-dark">Contact</button></p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="team">
+                </div>
+                <div class="card user_card">
+                    <img src="images/gyanendra.png" alt="Profile_picture" style="width:100%">
+                    <h3>Gyanendra Kumar</h3>
+                    <p class="title text-info">Student & Developer</p>
+                    <div>
+                        <a href="https://twitter.com/Gyanendrak874"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-verma-5b3a42193/"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/gauravkira"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/gaurav.ghost/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <p><button class="btn btn-lg btn-dark">Contact</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Section 5 About Us-->
+
+    <!-- Contact me Section -->
+
+    <div class="section_5 container">
+        <div class="container contact_me_box">
+            <h2 class="heading text-danger text-center">Get In Touch</h2>
         </div>
         <div class="row">
             <div class="col">
                 <div class="card">
-                    <div class="card-header bg-danger text-white contact_me_name" id="contact_me"><h3>Contact Me</h3></div>
-
+                    <div class="card-header bg-danger text-white contact_me_name" id="contact_me">
+                        <h3>Contact Me</h3>
+                    </div>
                     <div class="card-body bg-dark text-white">
-                        <form action="mailto:gyanendrak874@gmail.com">
+                        <form action="mailto:notesonf@gmail.com">
                             <div class="form-group">
                                 <label for="name"><i class="fa fa-user" aria-hidden="true"></i> Name </label>
                                 <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
@@ -76,7 +254,8 @@
                                 <textarea class="form-control" id="message" rows="6" required></textarea>
                             </div>
                             <div class="mx-auto submit_box">
-                                <button type="submit" class="btn btn-lg  submit_btn text-light">Submit</button></div>
+                                <button type="submit" class="btn btn-lg  submit_btn text-light">Submit</button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -86,8 +265,8 @@
 
 
     <!-- END OF CONTACT ME SECTION -->
- <!-- Footer section -->
 
+    <!-- Footer section -->
 
     <section class="footer_section">
         <footer class="footer_box">
@@ -95,15 +274,18 @@
                     class="fa fa-facebook-official w3-hover-opacity social_icon "></i></a>
             <a href="https://www.instagram.com/notes_on_fire/"><i
                     class="fa fa-instagram w3-hover-opacity social_icon"></i></a>
-            <a href="https://twitter.com/Gyanendrak874"><i class="fa fa-twitter w3-hover-opacity social_icon"></i></a>
+            <a href="#"><i class="fa fa-twitter w3-hover-opacity social_icon"></i></a>
             <div class="copyright_box">
-                <p>Copyright © 2020<span class="w3-hover-green"> NOTESONFIRE</span> </p>
+                <p>Copyright © 2020<span class="w3-hover-green"> NOTESONFIRE</span></p>
             </div>
         </footer>
     </section>
 
     <!-- END OF FOOTER SECTION -->
-
     <hr class="last_line">
+
+
+
 </body>
+
 </html>

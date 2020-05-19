@@ -1,0 +1,73 @@
+/* Center website */
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  .notes_btn{
+    text-align: center;
+    border-style: solid;
+    padding: 10px 30px;
+    color: rgb(240, 227, 227);
+    transition: .6s;
+    font-size: 18px;
+    border-color: darkcyan;
+    overflow: hidden;
+}
+
+.notes_btn:focus{
+    outline: none;
+}
+
+.notes_btn:hover{
+    background: rgba(211, 26, 42, 0.856);
+    cursor: pointer;
+}
+
+.notes_btn:hover:before{
+    transform: translateX(300px) skew(-15deg);
+    opacity: .6;
+    transition: .7s;
+
+}
+
+.notes_btn:hover::after{
+    transform: translateX(300px) skew(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
